@@ -1,0 +1,30 @@
+// Questão B
+programa
+{
+	
+	funcao inicio(){
+		inteiro base,exp 
+	
+		escreva("Digite a base: ")
+		leia(base)
+		escreva("Digite o expoente: ")
+		leia(exp)
+
+		potencia(base, exp)
+
+		potencia(2, 3)
+		
+	}
+
+	funcao potencia(inteiro base, inteiro exp){
+
+		inteiro calculo = base
+		para(inteiro i=1; i < exp; i ++){
+			se(exp == i){
+				pare
+			}
+			calculo = calculo * base
+		}
+		escreva("\n", base," elevado a ", exp," é igual a ", calculo)
+	}
+}
