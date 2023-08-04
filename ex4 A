@@ -1,0 +1,20 @@
+// questão A
+programa
+{
+	inteiro base,expoente,calculo 
+	funcao inicio(){
+	
+		escreva("Digite a base: ")
+		leia(base)
+		escreva("Digite o expoente: ")
+		leia(expoente)
+		calculo = base
+		para(inteiro i=1; i < expoente; i ++){
+			se(expoente == i){
+				pare
+			}
+			calculo = calculo * base
+		}
+		escreva(calculo)
+	}
+}
