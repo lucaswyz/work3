@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro paisA = 80000
+		inteiro paisB = 200000
+		
+		real taxaA = 0.03
+		real taxaB = 0.015
+
+		inteiro anos
+
+		escreva("Habitantes país A: ", paisA)
+		escreva("\nHabitantes país B: ", paisB)
+		
+		para(anos = 0; paisA <= paisB; anos++){
+			paisA = paisA + paisA*taxaA
+			paisB = paisB + paisB*taxaB
+		}
+		escreva("\n\nHabitantes país A: ", paisA)
+		escreva("\nHabitantes país B: ", paisB)
+		escreva("\n\nLevou ", anos , " anos para o país A passar ou igualar o país B\n ")
+	}
+}
